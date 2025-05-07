@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="766.0" style="-fx-background-color: Coral;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.LoginSceneController">
+   <children>
+      <AnchorPane layoutX="415.0" layoutY="22.0" prefHeight="449.0" prefWidth="330.0" style="-fx-background-color: F97474;">
+         <children>
+            <Label layoutX="19.0" layoutY="29.0" prefHeight="63.0" prefWidth="98.0" text="Please Select Your Department:" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <ComboBox fx:id="usertypeCombobox" layoutX="142.0" layoutY="45.0" onMouseClicked="#initialize" prefWidth="150.0" style="-fx-background-color: yellow;" />
+            <TextField fx:id="userIDTextfield" layoutX="142.0" layoutY="116.0" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: yellow;" />
+            <TextField fx:id="passwordTextfield" layoutX="142.0" layoutY="174.0" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: yellow;" />
+            <Label layoutX="51.0" layoutY="121.0" prefHeight="21.0" prefWidth="57.0" text="User ID:" textFill="WHITE" />
+            <Label layoutX="35.0" layoutY="179.0" prefHeight="21.0" prefWidth="67.0" text="Password" textFill="WHITE" />
+            <Button layoutX="108.0" layoutY="250.0" mnemonicParsing="false" onAction="#loginOnClick" prefHeight="31.0" prefWidth="184.0" style="-fx-background-color: orange;" text="Login" />
+            <Button layoutX="108.0" layoutY="315.0" mnemonicParsing="false" onAction="#OpenRegisterSceneOnClick" onMouseClicked="#initialize" prefHeight="31.0" prefWidth="184.0" style="-fx-background-color: orange;" text="Sign Up" textFill="#0d0a00" />
+            <Button layoutX="108.0" layoutY="377.0" mnemonicParsing="false" onAction="#TableViewButtonOnClick" prefHeight="31.0" prefWidth="184.0" style="-fx-background-color: orange;" text="TableView" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="logoImageView" fitHeight="279.0" fitWidth="378.0" layoutX="14.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@warnerbroslogo1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

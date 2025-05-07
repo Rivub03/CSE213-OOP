@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="practiceproblem1.AgentInfoUploadController">
+   <children>
+      <Label layoutX="75.0" layoutY="90.0" text="Inset Agent ID" />
+      <Label layoutX="75.0" layoutY="136.0" text="Insert Agent Name" />
+      <Label layoutX="75.0" layoutY="179.0" text="Insert  Email" />
+      <Label layoutX="72.0" layoutY="223.0" text="Insert Agent Contact Number" />
+      <Label layoutX="72.0" layoutY="264.0" text="Insert Agent Company" />
+      <TextField fx:id="agentIdTextBox" layoutX="289.0" layoutY="85.0" />
+      <TextField fx:id="agentNameTextBox" layoutX="289.0" layoutY="131.0" />
+      <TextField fx:id="emailTextBox" layoutX="289.0" layoutY="175.0" />
+      <TextField fx:id="contactNumberTextBox" layoutX="289.0" layoutY="218.0" />
+      <TextField fx:id="agentCompanyTextBox" layoutX="289.0" layoutY="259.0" />
+      <Button layoutX="210.0" layoutY="324.0" mnemonicParsing="false" onAction="#uploadButtonOnClick" prefHeight="31.0" prefWidth="158.0" text="Upload" />
+      <Label layoutX="178.0" layoutY="30.0" text="Upload Your Agent Information Here" />
+   </children>
+</AnchorPane>

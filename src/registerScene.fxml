@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="367.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.RegisterSceneController">
+   <children>
+      <ComboBox fx:id="usertypeCombobox" layoutX="194.0" layoutY="217.0" prefWidth="150.0" />
+      <TextField fx:id="usernameTextfield" layoutX="194.0" layoutY="57.0" />
+      <TextField fx:id="useridTextfield" layoutX="194.0" layoutY="106.0" />
+      <TextField fx:id="passwordTextfield" layoutX="194.0" layoutY="159.0" />
+      <Button layoutX="79.0" layoutY="279.0" mnemonicParsing="false" onAction="#registerButtonOnClick" prefHeight="25.0" prefWidth="200.0" text="Register" />
+      <Label layoutX="70.0" layoutY="61.0" text="GIve your name:" />
+      <Label layoutX="15.0" layoutY="110.0" text="GIve an unique ID (4 digit)" />
+      <Label layoutX="101.0" layoutY="163.0" text="Password:" />
+      <Label layoutX="100.0" layoutY="221.0" text="USER type" />
+      <Button layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#gobackOnClick" prefHeight="25.0" prefWidth="98.0" text="Go back" />
+   </children>
+</AnchorPane>
